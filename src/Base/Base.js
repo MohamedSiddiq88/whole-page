@@ -24,10 +24,10 @@ setShow={setShow}
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <button className="btn btn-group col-md-3 col-sm-3">
-  <input type="text"></input>
-  <button className="btn btn-primary">search</button>
-  </button>
+  <div className="btn-group mb-3">
+  <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="button-addon2" placeholder="Search"/>
+  <button className="btn btn-primary" id="button-addon2">search</button>
+  </div>
 
             </nav>
             </header>
